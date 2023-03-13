@@ -26,6 +26,7 @@ function Header() {
 
             <div className = "header__right">
                 <IconButton>
+                    
                     <AppsIcon />
                 </IconButton>
 
