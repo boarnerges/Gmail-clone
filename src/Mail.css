@@ -31,7 +31,7 @@
     position: relative;
 }
 
-.mail__importance {
+.mail__important {
     color: #e8ab02 !important;
 }
 .mail__bodyHeader > h2 {
