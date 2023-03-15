@@ -1,9 +1,13 @@
 import { Close } from '@mui/icons-material'
 import { Button } from '@mui/material'
 import React from 'react'
+import { useForm } from 'react-hook-form'
 import './SendMail.css'
 
+
 function SendMail() {
+
+    const {register, handleSubmit, watch, errors } = useForm();
   return (
     <div className='sendMail'>
         <div className = 'sendMail__header'>
