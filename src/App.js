@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-// eslint-disable-next-line
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import EmailList from "./EmailList";
 import Mail from "./Mail";
