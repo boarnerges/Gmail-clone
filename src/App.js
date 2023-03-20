@@ -16,11 +16,11 @@ function App() {
           <div className="app__body">
             <Sidebar />
             <Routes>
-              <Route path="/mail" element={<Mail />}/>
-              <Route path="/" element={<EmailList />}/>
+              <Route path="/mail" element={<Mail />} />
+              <Route path="/" element={<EmailList />} />
             </Routes>
           </div>
-          <SendMail/>
+          <SendMail />
         </div>
       </>
     </BrowserRouter>
