@@ -5,8 +5,11 @@ import Sidebar from "./Sidebar";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import EmailList from "./EmailList";
 import Mail from "./Mail";
+import { useSelector } from "react-redux";
+import { selectSendMessageIsOpen } from "./features/mailSlice";
 
 function App() {
+  const sendMessageIsOpen = useSelector(selectSendMessageIsOpen);
   return (
     <BrowserRouter>
       <>
